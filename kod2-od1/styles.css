@@ -1,0 +1,259 @@
+.body {
+  position: relative;
+  width: 1600px;
+  height: 920px;
+}
+
+:root {
+  --button-color: #fc569a;
+}
+
+.main {
+  position: absolute;
+  width: 1600px;
+  height: 920px;
+  left: 0px;
+  top: 0px;
+}
+
+.main__left a {
+  position: absolute;
+  width: 95.25px;
+  height: 40.61px;
+  left: 55.94px;
+  top: 37px;
+  font-family: Circular Std;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 160%;
+  /* or 48px */
+  letter-spacing: -0.02em;
+  text-decoration: none;
+  color: #0a1b32;
+}
+
+.main__left a::after {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  margin-top: 28px;
+  margin-left: 3px;
+  background: violet;
+  border: 1px solid violet;
+  border-radius: 100%;
+}
+
+.main__redirect {
+  float: left;
+  list-style: none;
+}
+
+.main__redirect__link {
+  list-style-type: none;
+}
+
+.main__redirect__link__home {
+  position: absolute;
+  width: 45px;
+  height: 24px;
+  left: 272.76px;
+  top: 48px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #1b0a42;
+}
+
+.main__redirect__link a {
+  text-decoration: none;
+}
+
+.main__redirect__link__about {
+  position: absolute;
+  width: 44px;
+  height: 24px;
+  left: 355.76px;
+  top: 48px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #1b0a42;
+}
+
+.main__redirect__link a {
+  text-decoration: none;
+}
+
+.main__redirect__link__blog {
+  position: absolute;
+  width: 33px;
+  height: 24px;
+  left: 439.76px;
+  top: 48px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #1b0a42;
+}
+
+.main__redirect__link a {
+  text-decoration: none;
+}
+
+.main__redirect__link__contact {
+  position: absolute;
+  width: 58px;
+  height: 24px;
+  left: 510.76px;
+  top: 48px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #1b0a42;
+}
+
+.main__redirect__link a {
+  text-decoration: none;
+}
+
+.main__right {
+  position: absolute;
+  width: 51px;
+  height: 24px;
+  left: 1320.96px;
+  top: 48px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #1b0a42;
+}
+
+.main__right a {
+  text-decoration: none;
+}
+
+.main__right__button {
+  position: absolute;
+  width: 120px;
+  height: 59.65px;
+  float: left;
+  margin-left: 60px;
+  margin-top: -15px;
+  background-color: var(--button-color);
+  border-radius: 6px;
+}
+
+.main__right__button p {
+  position: absolute;
+  width: 58px;
+  height: 24px;
+  left: 30px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  margin-top: 18px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.section {
+  float: left;
+}
+
+.section__left span {
+  position: absolute;
+  width: 495px;
+  height: 152px;
+  left: 200px;
+  top: 280.71px;
+  font-family: Ramaraja;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 76px;
+  /* or 106% */
+  letter-spacing: 0.02em;
+  color: #1b0a42;
+}
+
+.section__left p {
+  position: absolute;
+  width: 561.49px;
+  height: 96px;
+  left: 200px;
+  top: 442.71px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  /* or 160% */
+  letter-spacing: 0.02em;
+  color: #9a9a9a;
+}
+
+.section__left__button {
+  position: absolute;
+  width: 152px;
+  height: 63.82px;
+  left: 200px;
+  top: 588.71px;
+  background: var(--button-color);
+  border-radius: 6px;
+}
+
+.section__left__button p {
+  position: absolute;
+  width: 87.57px;
+  height: 27.82px;
+  left: 32px;
+  margin-top: -425.71px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 32px;
+  /* or 200% */
+  text-align: center;
+  color: white;
+}
+
+.section__right img {
+  position: absolute;
+  width: 778px;
+  height: 526px;
+  left: 800px;
+  top: 205px;
+}
+/*# sourceMappingURL=styles.css.map */
