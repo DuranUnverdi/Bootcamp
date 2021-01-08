@@ -1,0 +1,530 @@
+* {
+  font-family: "Mulish", "Roboto", sans-serif;
+}
+.color {
+  left: 0px;
+  top: 0px;
+  font-family: "Mulish", "Roboto", sans-serif;
+  background-color: #faf5f9;
+}
+.nav-wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  img {
+    margin-top: 15px;
+  }
+  ul {
+    margin-left: -180px;
+
+    li {
+      padding-left: 45px;
+    }
+  }
+}
+.nav {
+  margin-top: 40px;
+
+  &__item {
+    text-decoration: none;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: rgba(75, 93, 104, 1);
+    &:not(:last-child) {
+      margin-right: 40px;
+    }
+    &:hover {
+      opacity: 1.1;
+    }
+    &--active {
+      font-style: normal;
+      font-weight: 800;
+      line-height: 160%;
+      color: #212353;
+    }
+  }
+  &__button {
+    color: rgba(33, 35, 83, 1);
+    font-weight: 550;
+    line-height: 25px;
+    width: 210px;
+    height: 60px;
+    background: #ffffff;
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+    border-radius: 50px;
+    font-style: normal;
+    font-size: 16px;
+    margin-left: 500px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    & img {
+      margin-top: 0;
+      display: flex;
+      padding-left: 10px;
+    }
+  }
+}
+.save {
+  position: relative;
+  margin-top: 100px;
+  &__title {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 110%;
+    display: flex;
+    align-items: center;
+    color: #212353;
+  }
+  &__desc {
+    margin-top: 50px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4b5d68;
+    padding-right: 290px;
+  }
+  &__button {
+    text-decoration: none;
+    width: 170px;
+    height: 60px;
+    background: #9c69e2;
+    border-radius: 50px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    color: #ffffff;
+  }
+  &__illis {
+    position: absolute;
+    left: 520px;
+    top: 70px;
+    width: 995px;
+    height: 468px;
+  }
+}
+.bank {
+  margin-top: 200px;
+  &__bg {
+    background: rgba(240, 99, 184, 0.15);
+    border-radius: 50px;
+    margin-left: 0px;
+  }
+
+  &__title {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: #212353;
+    margin-top: 120px;
+  }
+  &__desc {
+    margin-top: 40px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4b5d68;
+  }
+  &__padding {
+    padding-left: 70px;
+    padding-right: 150px;
+  }
+}
+.features {
+  margin-top: 140px;
+  &__tunel {
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  &__title {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130%;
+    color: #212353;
+  }
+  &__desc {
+    margin-top: 50px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+  }
+  &__data {
+    position: relative;
+    background-image: url("https://i.hizliresim.com/tm5PNB.png");
+    background-repeat: no-repeat;
+    margin-left: 10%;
+    min-height: 330px;
+  }
+  &__title1 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    padding-left: 26%;
+    color: #212353;
+    padding-top: 50px;
+    margin-top: 100px;
+  }
+  &__desc1 {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    color: #4b5d68;
+    padding-left: 26%;
+    padding-right: 38%;
+    margin-top: 20px;
+    margin-bottom: 5%;
+  }
+  &__link1 {
+    padding-left: 26%;
+    text-decoration: none;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 160%;
+    color: #212353;
+  }
+  &__bg1 {
+    background-image: url("https://i.hizliresim.com/HKDoV3.png");
+    background-repeat: repeat-y;
+  }
+  &__img1 {
+    position: absolute;
+    margin-top: 60px;
+    margin-left: -100px;
+  }
+  &__img2 {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: -110px;
+  }
+  &__img3 {
+    position: absolute;
+    margin-top: 90px;
+    margin-left: -120px;
+  }
+  &__img4 {
+    position: absolute;
+    margin-top: 80px;
+    margin-left: -120px;
+  }
+}
+.sliderr {
+  margin-top: 150px;
+  margin-bottom: 150px;
+  &__inclusive {
+    background: #9c69e2;
+    border-radius: 50px;
+  }
+  &__title {
+    margin-left: 93px;
+    margin-top: 109px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+
+    color: #ffffff;
+  }
+  &__position {
+    display: inline-flex;
+    align-items: left;
+  }
+  &__inc-div {
+    position: relative;
+    width: 645px;
+    margin-top: 90px;
+    margin-left: 120px;
+    margin-bottom: 50px;
+    background-color: white;
+    box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
+    border-radius: 20px;
+    & img {
+      position: absolute;
+      margin-left: -150px;
+      padding-top: 40px;
+    }
+  }
+  &__bio1 {
+    padding-left: 210px;
+    padding-bottom: 40px;
+    & a {
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 160%;
+
+      color: #9c69e2;
+    }
+  }
+  &__title1 {
+    padding-top: 50px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+
+    color: #212353;
+  }
+  &__desc {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 180%;
+    color: #4b5d68;
+    margin-right: 22%;
+  }
+  &__inc-div2 {
+    position: relative;
+    width: 450px;
+  }
+  &__inc-div3 {
+    position: relative;
+    height: 300px;
+    width: 150px;
+    margin-left: 10px;
+  }
+  &__bio2 {
+    padding-left: 180px;
+    padding-bottom: 40px;
+    & a {
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 160%;
+
+      color: #9c69e2;
+    }
+  }
+  &__dote {
+    margin-left: 100px;
+    margin-bottom: 40px;
+  }
+}
+.footer {
+  &__ust {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 150px;
+  }
+  &__title {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130%;
+    display: flex;
+
+    align-items: center;
+
+    color: #212353;
+  }
+  &__desc {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4b5d68;
+  }
+  &__right {
+    display: inline-flex;
+    align-items: left;
+    text-align: center;
+    justify-content: space-between;
+    text-decoration: none;
+  }
+  &__link1 {
+    text-decoration: none;
+    width: 170px;
+    height: 60px;
+    background: #f063b8;
+    border-radius: 50px;
+    color: red;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #ffffff;
+  }
+  &__link2 {
+    text-decoration: none;
+    width: 210px;
+    height: 60px;
+    background: #ffffff;
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+    border-radius: 50px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 160%;
+    color: #212353;
+    & img {
+      padding-left: 10px;
+    }
+  }
+  &__logoo {
+    display: flex;
+    flex-direction: row;
+
+    align-items: left;
+  }
+  &__title1 {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 160%;
+    color: #212353;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+  }
+  &__left1 {
+    display: inline-flex;
+    align-items: column;
+    justify-content: space-between;
+    color: red;
+    flex-direction: column;
+  }
+  &__desc1 {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    margin-top: 60px;
+    letter-spacing: 0.01em;
+    color: #212353;
+  }
+  &__red {
+    padding-right: 60%;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 180%;
+    /* or 29px */
+
+    letter-spacing: 0.01em;
+
+    /* 2 */
+
+    color: #212353;
+  }
+  &__siralama {
+    display: inline-flex;
+    flex-direction: column;
+    &-active {
+      font-family: Avenir;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 16px;
+      line-height: 160%;
+      color: #212353;
+      text-decoration: none;
+      margin-bottom: 30px;
+    }
+  }
+  &__siralama1 {
+    text-decoration: none;
+    padding-top: 10px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 250%;
+    color: #212353;
+  }
+  &__right2 {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 160%;
+    color: #212353;
+    margin-bottom: 30px;
+  }
+  &__icon {
+    & i {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      background-color: rgb(180, 179, 179);
+      border: 1px solid rgb(180, 179, 179);
+      width: 50px;
+      height: 50px;
+      border-radius: 100%;
+      margin-left: 20px;
+    }
+  }
+  &__enalt {
+    & p {
+      font-family: Avenir;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 180%;
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.01em;
+      color: #212353;
+      padding-bottom: 90px;
+      padding-top: 110px;
+    }
+  }
+}
