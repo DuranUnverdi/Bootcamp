@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <style>
+.form input{
+    margin-bottom: 10px;
+    height: 30px;
+    min-width: 100px;
+    border-radius:5px 10px;
+    padding-left: 10px;
+    
+}
+.ortalama{
+  margin-top: 20%;
+ margin-left: 40%;
+   
+}
+.mesaj{
+    
+    display: none
+}
+.mesaj1{
+   display: none;
+
+}
+.mesajj{
+    background-color: red;
+}
+.mesajj1{
+    background-color: green;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="ortalama">
+            <form class="form">
+                <input type="text" id="ad" placeholder="Ad"/> <br/>
+                <input type="text" id="soyad" placeholder="Soyad"/> <br/>
+                <input type="text" id="kullaniciad" placeholder="Kullanıcı Adı"/> <br/>
+                <input type="email" id="kullaniciemail" placeholder="Email"/> <br/>
+                <input type="password" id="kullanicisifre" placeholder="sifre"></input> <br/>
+                <input type="password" id="kullanicitsifre" placeholder="Şifre Tekrar"/> <br/>
+            <button type="button" onclick="kontrol()">Kaydol</button>
+            <p class="result" id="result"></p>
+            </form>
+            <div id="mesaj" class="mesaj"><p>Parolanız 8 karakterden az yada eşleşmiyor</p></div>
+            <div id="mesaj1" class="mesaj1"><p id="aciklama"></p></div>
+        </div>
+</div>
+
+<script src="form.js"></script>
+</body>
+</html>
