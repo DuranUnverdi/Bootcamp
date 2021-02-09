@@ -1,0 +1,12 @@
+table {
+  margin-top: 150px;
+}
+.btn_pos {
+  display: flex;
+  justify-content: center;
+}
+#tablo {
+  margin-top: 40px;
+  text-align: left;
+  font-weight: bold;
+}
