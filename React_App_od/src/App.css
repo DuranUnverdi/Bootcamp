@@ -1,0 +1,63 @@
+* {
+  text-decoration: none;
+}
+
+.position {
+  margin-top: 20px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #dddddd;
+  background-color: #dddddd;
+}
+.alignment {
+  display: inline-flex;
+  margin-top: 10px;
+  color: black;
+}
+.alignment ul {
+  list-style-type: none;
+  text-decoration: none;
+}
+.alignment ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+.alignment ul li a:hover {
+  color: rgb(13, 52, 160);
+  font-weight: bold;
+}
+.Blog,
+.Main,
+.Projects,
+.About,
+.Notfound {
+  margin-left: 400px;
+  margin-top: 100px;
+  text-decoration: none;
+}
+.card_property {
+  width: 200px;
+  min-height: 200px;
+}
+.center_alignment {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 100px;
+}
+.iinput {
+  border-radius: 100px;
+  min-width: 250px;
+  min-height: 50px;
+  padding-left: 30px;
+}
+.iinput:focus {
+  outline: 0;
+}
+.iinput::placeholder {
+  font-weight: bold;
+}
